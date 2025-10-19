@@ -1,0 +1,14 @@
+employee_id,name,store_id,team_id,position,hire_date,base_salary,commission_rate,performance_rating
+EMP001,Nguyen Van An,ST001,TEAM01,Senior Sales,2020-02-01,15000000,0.03,Excellent
+EMP002,Tran Thi Binh,ST001,TEAM01,Sales Associate,2021-05-15,10000000,0.02,Good
+EMP003,Le Van Cuong,ST001,TEAM01,Sales Associate,2022-01-20,10000000,0.02,Good
+EMP004,Pham Thi Dung,ST001,TEAM01,Junior Sales,2023-03-10,8000000,0.015,Average
+EMP005,Hoang Van Em,ST002,TEAM02,Senior Sales,2021-07-01,14000000,0.03,Excellent
+EMP006,Vo Thi Phuong,ST002,TEAM02,Sales Associate,2022-02-15,10000000,0.02,Good
+EMP007,Dang Van Gia,ST002,TEAM02,Sales Associate,2022-08-20,10000000,0.02,Good
+EMP008,Bui Thi Hoa,ST003,TEAM03,Senior Sales,2022-04-01,14000000,0.03,Excellent
+EMP009,Duong Van Khanh,ST003,TEAM03,Sales Associate,2022-09-10,10000000,0.02,Average
+EMP010,Ngo Thi Lan,ST004,TEAM04,Senior Sales,2020-09-01,15000000,0.03,Excellent
+EMP011,Truong Van Minh,ST004,TEAM04,Sales Associate,2021-11-15,10000000,0.02,Good
+EMP012,Ly Thi Nga,ST005,TEAM05,Senior Sales,2023-02-01,13000000,0.03,Good
+EMP013,Do Van Phong,ST005,TEAM05,Sales Associate,2023-06-20,9000000,0.02,Average

@@ -1,0 +1,6 @@
+store_id,name,city,region,type,opening_date,area_sqm,monthly_rent,manager
+ST001,Flagship Store HCM,Ho Chi Minh,South,Flagship,2020-01-15,500,150000000,Nguyen Anh
+ST002,District 7 Store,Ho Chi Minh,South,Standard,2021-06-20,250,80000000,Tran Binh
+ST003,Da Nang Central,Da Nang,Central,Standard,2022-03-10,300,70000000,Le Cuong
+ST004,Hanoi Premium,Hanoi,North,Premium,2020-08-05,400,120000000,Pham Dung
+ST005,Binh Thanh Outlet,Ho Chi Minh,South,Outlet,2023-01-12,200,50000000,Hoang Em

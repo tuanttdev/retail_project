@@ -1,0 +1,4 @@
+target_id,month,year,channel,target_revenue,target_orders,target_conversion_rate,target_avg_order,target_roi
+TG_CH001_01,January,2025,Online,600000000,480,0.18,1250000,3.5
+TG_CH002_01,January,2025,In-Store,750000000,600,0.3,1250000,2.8
+TG_CH003_01,January,2025,Mobile App,350000000,300,0.15,1167000,3.2

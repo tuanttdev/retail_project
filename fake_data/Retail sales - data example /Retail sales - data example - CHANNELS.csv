@@ -1,0 +1,4 @@
+channel_name,type,commission_rate,monthly_fixed_cost,avg_acquisition_cost
+Online,E-commerce,0.05,25000000,150000
+In-Store,Physical,0,180000000,80000
+Mobile App,E-commerce,0.04,15000000,120000

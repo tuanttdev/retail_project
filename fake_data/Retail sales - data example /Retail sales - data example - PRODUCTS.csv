@@ -1,0 +1,21 @@
+product_id,name,category,brand,cost_price,selling_price,stock,supplier
+PROD001,Smartphone X1,Mobile Phones,TechBrand,280000,350000,150,SUP001
+PROD002,Laptop Pro 15,Computers,TechBrand,450000,580000,80,SUP001
+PROD003,"Smart TV 55""",Televisions,ViewTech,950000,1200000,45,SUP002
+PROD004,Gaming Console Z,Gaming,PlayTech,1150000,1500000,60,SUP003
+PROD005,Wireless Headphones,Audio,SoundWave,320000,450000,200,SUP004
+PROD006,Smart Watch Pro,Wearables,TechBrand,180000,280000,120,SUP001
+PROD007,Tablet Air 10,Tablets,TechBrand,190000,250000,100,SUP001
+PROD008,Bluetooth Speaker,Audio,SoundWave,110000,150000,180,SUP004
+PROD009,Power Bank 20000,Accessories,PowerMax,140000,200000,250,SUP005
+PROD010,Wireless Mouse,Accessories,TechBrand,45000,70000,300,SUP001
+PROD011,Mechanical Keyboard,Accessories,TechBrand,150000,200000,150,SUP001
+PROD012,USB-C Hub,Accessories,ConnectPro,140000,200000,200,SUP006
+PROD013,Webcam HD,Accessories,ViewTech,180000,250000,100,SUP002
+PROD014,Wireless Charger,Accessories,PowerMax,210000,300000,180,SUP005
+PROD015,Noise Cancelling Earbuds,Audio,SoundWave,400000,550000,140,SUP004
+PROD016,Portable SSD 1TB,Storage,DataSafe,380000,500000,90,SUP007
+PROD017,"Monitor 27"" 4K",Displays,ViewTech,550000,750000,70,SUP002
+PROD018,Drone Camera,Cameras,SkyView,580000,750000,50,SUP008
+PROD019,Smart Home Hub,Smart Home,HomeTech,220000,320000,110,SUP009
+PROD020,Action Camera 4K,Cameras,SkyView,230000,300000,95,SUP008

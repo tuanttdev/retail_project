@@ -1,0 +1,6 @@
+target_id,month,year,store_id,target_revenue,target_orders,target_conversion_rate,target_avg_order,target_customer_satisfaction
+TG_ST001_01,January,2025,ST001,500000000,400,0.25,1250000,4.5
+TG_ST002_01,January,2025,ST002,300000000,280,0.22,1070000,4.3
+TG_ST003_01,January,2025,ST003,250000000,240,0.2,1040000,4.2
+TG_ST004_01,January,2025,ST004,450000000,350,0.24,1285000,4.6
+TG_ST005_01,January,2025,ST005,200000000,220,0.18,910000,4

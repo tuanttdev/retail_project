@@ -1,0 +1,17 @@
+customer_id,name,email,phone,city,registration_date,segment,lifetime_value,total_orders
+CUST001,Nguyen Van A,nguyenvana@email.com,901234567,Ho Chi Minh,2024-03-15,Premium,8950000,15
+CUST002,Tran Thi B,tranthib@email.com,912345678,Ho Chi Minh,2024-05-20,Regular,2235000,9
+CUST003,Le Van C,levanc@email.com,923456789,Hanoi,2024-01-10,VIP,18270000,28
+CUST004,Pham Thi D,phamthid@email.com,934567890,Da Nang,2024-07-08,Regular,1255000,6
+CUST005,Hoang Van E,hoangvane@email.com,945678901,Ho Chi Minh,2024-02-25,Premium,8685000,16
+CUST006,Vo Thi F,vothif@email.com,956789012,Hanoi,2024-06-12,Regular,4180000,10
+CUST007,Dang Van G,dangvang@email.com,967890123,Ho Chi Minh,2024-04-18,VIP,18050000,35
+CUST008,Bui Thi H,buithih@email.com,978901234,Da Nang,2024-08-05,New,675000,1
+CUST009,Duong Van I,duongvani@email.com,989012345,Hanoi,2024-03-30,Premium,8250000,15
+CUST010,Ngo Thi K,ngothik@email.com,990123456,Ho Chi Minh,2024-05-15,Regular,5190000,12
+CUST011,Truong Van L,truongvanl@email.com,901234568,Can Tho,2024-07-22,Premium,7555000,14
+CUST012,Ly Thi M,lythim@email.com,912345679,Hai Phong,2024-06-08,Regular,3830000,8
+CUST013,Do Van N,dovann@email.com,923456780,Ho Chi Minh,2024-04-12,New,1305000,1
+CUST014,Phan Van O,phanvano@email.com,934567891,Hanoi,2024-06-20,Regular,3500000,7
+CUST015,Vo Thi P,vothip@email.com,945678902,Da Nang,2024-08-15,New,828000,1
+CUST016,Le Van Q,levanq@email.com,956789013,Ho Chi Minh,2024-05-10,Premium,7320000,13

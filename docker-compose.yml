@@ -1,0 +1,46 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: retail_pg16
+    restart: unless-stopped # stopped manually then it don't auto start again
+    environment:
+      POSTGRES_USER: ${PG_USER:-retail}  # lay tu bien moi truong PG_USER hoac file .env hoac mac dinh la retail (gia tri sau dau - )
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-retailpw}
+      POSTGRES_DB: ${PG_DB:-retaildb}
+      TZ: Asia/Ho_Chi_Minh
+    ports:
+      - "${PG_PORT:-5432}:5432"
+    volumes:
+      - retail_pg16_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U appuser -d appdb || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    container_name: retail_ch24
+    restart: unless-stopped
+    environment:
+      CLICKHOUSE_DB: ${CH_DB:-retail}
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    ports:
+      - "${CH_HTTP_PORT:-8123}:8123"   # HTTP
+      - "${CH_TCP_PORT:-9000}:9000"    # Native
+    volumes:
+      - retail_ch24_data2:/var/lib/clickhouse
+      - ~/clickhouse_logs:/var/log/clickhouse-server/
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8123/ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+networks:
+  default:
+    name: retail_net
+
+volumes:
+  retail_pg16_data:
+  retail_ch24_data2:
